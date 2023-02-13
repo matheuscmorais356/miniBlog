@@ -44,15 +44,12 @@ const CreatePost = () => {
       });
       
       // redirect to home page
-      // navigate("/");
+      navigate("/");
       
     } catch (error) {
       if(error.message.includes("URL")){
         setFormError("A imagem precisa ser uma URL.");
       }
-      
-      console.log("erro: " + error)
-      console.log("state: " + formError)
     }
   };
   
