@@ -29,11 +29,6 @@ const CreatePost = () => {
       // create tags array
       const tagsArray = tags.split(",").map((tag) => tag.trim().toLowerCase());
       
-      // check values
-      if (!title || !image || !tags || !body) {
-        throw "Por favor, preencha todos os campos!"
-      }
-      
       insertDocument({
         title,
         image,
