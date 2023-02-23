@@ -4,6 +4,9 @@ O projeto foi desenvolvido durante o curso [React do zero a maestria](https://ww
 
 <img src="./public/assets/miniBlog.png" alt="miniBlog">
 
+### Objetivo
+
+O objetivo foi criar um blog que seria possível fazer um CRUD completo com a criação de usuários e posts, fazer a autenticação do usuário e o controle de sessão e fazer o gerenciamento das postagens podendo editar e excluir. Tudo isso integrado com o Firebase que ficou responsável pelo servidor e o armazenamento dos dados.
 
 ### 🔗 Links
 
@@ -17,7 +20,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - HTML
 - CSS
 - JavaScript
-- FireBase
+- Firebase
 
 ### Autor
 ---
